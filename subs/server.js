@@ -1,7 +1,6 @@
 const http = require('http');
 const crypto = require('crypto');
 const fnCrypt = require('./crypt');
-const port = 6500;
 
 const handles = function (req, res) {
         const { url , method } = req;
@@ -48,6 +47,6 @@ const handles = function (req, res) {
 
 const server = http.createServer(handles)
 
-server.listen(port, function () {
-    console.log(`LMCU Bank. Server Running on ${port} port`)
+server.listen(function () {
+    console.log(`LMCU Bank. Server Running`)
 })
