@@ -2,7 +2,7 @@
   "name": "decryptolcmy",
   "description": "a really cool app",
   "version": "1.0.0",
-  "main": "boot.js"
+  "main": "boot.js",
   "engines": {
     "node": "14.x"
   }
